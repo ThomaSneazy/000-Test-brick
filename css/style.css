@@ -5,8 +5,6 @@
 @import url("components/card.css");
 @import url("components/navbar.css");
 
-/* Importing layouts */
-@import url("pages/map.css");
 
 body {
   margin: 0;
@@ -16,6 +14,8 @@ body {
 }
 p {
   font-weight: lighter;
+  font-size: 12px;
+  color: rgb(151, 151, 151);
 }
 h1, h2, h3 {
   font-family: 'Varela Round', sans-serif;
@@ -36,4 +36,40 @@ h3 {
 }
 .main-container{
   display: flex;
+}
+/* i{
+  color: rgba(0, 0, 0, 0.283);
+  display: flex;
+} */
+#footer{
+  color: (155, 155, 155, 0.9);
+  font-size: 20px;
+  text-align: center;
+}
+#footer a{
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0 20px;
+  color: rgba(155, 155, 155, 0.9);
+  display: inline-block;
+}
+
+#footer a:hover{
+  transition: 0.5s;
+  transform-style: flat;
+  color: rgb(0, 0, 0);
+}
+
+#footer ul{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.btn_list li{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
 }
